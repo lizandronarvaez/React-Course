@@ -1,2 +1,1 @@
-/* eslint-disable no-undef */
-export default ["./jest.setup.js"];
+export default { testEnvironment: 'jest-environment-jsdom', setupFiles: ['./jest.setup.js'] }

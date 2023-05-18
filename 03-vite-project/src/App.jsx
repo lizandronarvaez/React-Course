@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <FirtsApp
-
+        title='Curso de React con Fernando Herrera'
       />
     </>
   )
