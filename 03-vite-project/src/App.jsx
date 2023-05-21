@@ -7,6 +7,7 @@ const App = () => {
     <>
       <FirtsApp
         title='Curso de React con Fernando Herrera'
+        nombre="Lizandro Narvaez"
       />
     </>
   )

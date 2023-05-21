@@ -5,7 +5,7 @@ const FirtsApp = ({ title, nombre }) => {
     return (
         <>
             <h1>CURSO: <span>{title}</span></h1>
-            <p>Alumno: {nombre}</p>
+            <p>{nombre}</p>
         </>
     )
 }
