@@ -1,9 +1,9 @@
 import { useState } from "react"
 
-const useCounter = (defaultValue = 10) => {
+const useCounter = (defaultValue = 1) => {
     const [counter, setCounter] = useState(defaultValue);
 
-    const addCounter = (value = 1) => setCounter(counter + value)
+    const addCounter = (value) => setCounter(counter + value)
     const resetCounter = () => setCounter(defaultValue)
     const subCounter = () => {
         counter <= 0 ?

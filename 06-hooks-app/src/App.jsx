@@ -2,16 +2,22 @@
 // import CounterCustomHook from "./01-useState/CounterCustomHook"
 // import FormularioNormal from "./02-useEffect/FormularioNormal"
 // import FormularioCustomHook from "./02-useEffect/FormularioCustomHook"
-
-import Ecommerce from "./03-Multiple-Custom-Hooks/Ecommerce"
-
+// import Ecommerce from "./03-Multiple-Custom-Hooks/Ecommerce"
+// import FocusScreen from "./04-useRef/FocusScreen"
+// import Memorize from "./06-memos/Memorize"
+// import CallBackHook from "./06-memos/CallBackHook"
+import { Padre } from "./07-tarea-memorize/Padre"
 const App = () => {
   return (
     <>
       {/* <CounterCustomHook /> */}
       {/* <FormularioNormal /> */}
       {/* <FormularioCustomHook /> */}
-      <Ecommerce />
+      {/* <Ecommerce /> */}
+      {/* <FocusScreen /> */}
+      {/* <Memorize /> */}
+      {/* <CallBackHook /> */}
+      <Padre />
     </>
   )
 }
