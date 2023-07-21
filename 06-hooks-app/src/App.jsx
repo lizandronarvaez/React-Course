@@ -5,8 +5,10 @@
 // import Ecommerce from "./03-Multiple-Custom-Hooks/Ecommerce"
 // import FocusScreen from "./04-useRef/FocusScreen"
 // import Memorize from "./06-memos/Memorize"
-// import CallBackHook from "./06-memos/CallBackHook"
-import { Padre } from "./07-tarea-memorize/Padre"
+// import CallBackHook from "./06-memos/CallBackHook";
+import { Padre } from "./07-tarea-memorize/Padre";
+import "./08-useReducer/intro-reducer"
+
 const App = () => {
   return (
     <>

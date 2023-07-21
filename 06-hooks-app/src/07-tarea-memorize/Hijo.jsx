@@ -3,16 +3,14 @@ import { memo } from "react";
 
 /* eslint-disable react/prop-types */
 memo
-export const Hijo =memo(({ numero, incrementar }) => {
-
-    console.log('  Me volví a generar :(  ');
+export const Hijo = memo(({ numero, incrementar }) => {
 
     return (
         <button
             className="btn btn-primary mx-2"
-            onClick={ () => incrementar( numero ) }
+            onClick={() => incrementar(numero)}
         >
-            { numero }
+            {numero}
         </button>
     )
 })
