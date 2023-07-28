@@ -6,7 +6,8 @@
 // import FocusScreen from "./04-useRef/FocusScreen"
 // import Memorize from "./06-memos/Memorize"
 // import CallBackHook from "./06-memos/CallBackHook";
-import { Padre } from "./07-tarea-memorize/Padre";
+// import { Padre } from "./07-tarea-memorize/Padre";
+import TodoAppList from "./08-useReducer/TodoAppList";
 import "./08-useReducer/intro-reducer"
 
 const App = () => {
@@ -19,7 +20,8 @@ const App = () => {
       {/* <FocusScreen /> */}
       {/* <Memorize /> */}
       {/* <CallBackHook /> */}
-      <Padre />
+      {/* <Padre /> */}
+      <TodoAppList />
     </>
   )
 }
