@@ -7,21 +7,17 @@
 // import Memorize from "./06-memos/Memorize"
 // import CallBackHook from "./06-memos/CallBackHook";
 // import { Padre } from "./07-tarea-memorize/Padre";
-import TodoAppList from "./08-useReducer/TodoAppList";
-import "./08-useReducer/intro-reducer"
+// import TodoAppList from "./08-useReducer/TodoAppList";
+import MainApp from "./09-useContext/MainApp"
+import { BrowserRouter } from "react-router-dom"
+
 
 const App = () => {
   return (
     <>
-      {/* <CounterCustomHook /> */}
-      {/* <FormularioNormal /> */}
-      {/* <FormularioCustomHook /> */}
-      {/* <Ecommerce /> */}
-      {/* <FocusScreen /> */}
-      {/* <Memorize /> */}
-      {/* <CallBackHook /> */}
-      {/* <Padre /> */}
-      <TodoAppList />
+      <BrowserRouter>
+        <MainApp />
+      </BrowserRouter>
     </>
   )
 }
