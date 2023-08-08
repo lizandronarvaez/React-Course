@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+ 
 import { useCallback, useState } from "react";
 import ShowIncrement from "./ShowIncrement";
 

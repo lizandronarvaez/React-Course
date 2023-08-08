@@ -1,4 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
+ 
 
 import { Hijo } from './Hijo'
 import { useCallback, useState } from 'react';

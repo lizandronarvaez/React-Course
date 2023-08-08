@@ -6,7 +6,6 @@ import useTodos from "./hooks/useTodos";
 const TodoAppList = () => {
 
     const { todos, todosCounter, todosPending, handleNewTodo, handleDeleteTodo, handleToggleTodo } = useTodos()
-    console.log(todos)
     return (
         <>
             <h1>TODO AppList<small>Pendientes</small></h1>

@@ -16,7 +16,7 @@ const useForm = (initialForm = {}) => {
         })
     }
 
-    const onResetForm = () => useFormState(initialForm);
+    const onResetForm = (initialForm) => useFormState(initialForm);
 
     return {
         ...formState,

@@ -9,7 +9,9 @@ const TodoItem = ({ todo, onDeleteTodo, onToogleTodo }) => {
             <p className="h4 py-3">
                 Tarea:
 
-                <span className={`h6 mx-5 ${(done) ? "text-decoration-line-through" : ""}`}>
+                <span 
+                aria-label="span"
+                className={`h6 mx-5 ${(done) ? "text-decoration-line-through" : ""}`}>
                     {description}
                 </span>
             </p>

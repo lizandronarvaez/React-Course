@@ -3,7 +3,7 @@ import { UserContext } from "./UserContext"
 
 const UserProvider = ({ children }) => {
     return (
-        <UserContext.Provider value={{ Saludo: "Hola estoy aprendiendo React, y estoy en la parte del useContenxt" }}>
+        <UserContext.Provider value={{ saludo: "Hola estoy aprendiendo React, y estoy en la parte del useContenxt" }}>
             {children}
         </UserContext.Provider>
     )

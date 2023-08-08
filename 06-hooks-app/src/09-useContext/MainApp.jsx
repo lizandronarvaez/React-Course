@@ -22,7 +22,6 @@ const MainApp = () => {
 
                 {/* SEGUNDA FORMA PARA REDIRECCIONAR UNA RUTA SINO LA ENCUENTRA*/}
                 <Route path="/*" element={<Navigate to={"/"} />} />
-
             </Routes>
         </UserProvider>
     )

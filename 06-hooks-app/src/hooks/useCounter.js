@@ -1,14 +1,14 @@
 import { useState } from "react"
 
-const useCounter = (defaultValue = 1) => {
+const useCounter = (defaultValue = 10) => {
     const [counter, setCounter] = useState(defaultValue);
 
-    const addCounter = (value) => setCounter(counter + value)
+    const addCounter = (value) => setCounter(current=>current + value)
     const resetCounter = () => setCounter(defaultValue)
-    const subCounter = () => {
+    const subCounter = (value) => {
         counter <= 0 ?
             null
-            : setCounter(counter - 1)
+            : setCounter(current=>current - value)
     }
     return {
         counter,

@@ -10,14 +10,14 @@ const HomePage = () => {
             <h1>HomePage</h1>
             <hr />
             {
-                saludar.Saludo ? (
+                saludar.saludo ? (
                     <>
-                        <h1>El saludo existe</h1>
-                        <p> {saludar.Saludo}</p>
+                        <h2>El saludo existe</h2>
+                        <p aria-label="saludo-label">{saludar.saludo}</p>
                     </>
                 )
                     : (
-                        <p>No existe el saludo</p>
+                        <p aria-label="saludo-label">No existe el saludo</p>
                     )
             }
         </>
